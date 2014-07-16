@@ -1,0 +1,37 @@
+{
+  "name": "irobot-client",
+  "version": "0.1.0",
+  "description": "An iRobot Create client that can connect to the telep control system.",
+  "main": "./lib/irobt-client.js",
+  "engines": {
+    "node": ">=0.1.103"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naiveroboticist/irobot-client.git"
+  },
+  "bin": {
+    "irobot-client": "./bin/irobot-client"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "sinon": "^1.10.3",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "iRobot",
+    "create",
+    "telep",
+    "client"
+  ],
+  "author": "Naive Roboticist",
+  "license": "MIT"
+}

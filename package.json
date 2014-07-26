@@ -11,7 +11,8 @@
     "url": "git@github.com:naiveroboticist/irobot-client.git"
   },
   "bin": {
-    "irobot-client": "./bin/irobot-client"
+    "irobot-client": "./bin/irobot-client",
+    "example-wander": "./bin/example-wander.js"
   },
   "directories": {
     "test": "test"

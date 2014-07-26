@@ -17,6 +17,8 @@
     "test": "test"
   },
   "dependencies": {
+    "commander": ">=2.3.0",
+    "dsigner": ">=0.1.4"
   },
   "devDependencies": {
     "chai": "^1.9.1",

@@ -11,6 +11,7 @@ program.
   option('-p, --port [port]', 'Specify the port of the telep server. Default \'5555\'', '5555').
   option('-h, --host [host]', 'Specify the host of the telep server. Default \'daneel\'', 'daneel').
   option('-s, --server [server]', 'Specify the name of the telep server. Default \'telep\'', 'telep').
+  option('-t, --tty [tty]', 'Specify the tty used for the serial port. Default \'(/dev/ttyUSB0)\'', '/dev/ttyUSB0').
   parse(process.argv)
 
 console.log("Fixing to connect to telep");
@@ -20,7 +21,7 @@ irobot.connectToTelep(program.name,
                       program.server);
 
 console.log("Fixing to connect to iRobot");
-irobot.connectToIRobot();
+irobot.connectToIRobot(program.tty);
 
 console.log("Waiting for action");
 

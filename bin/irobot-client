@@ -14,14 +14,10 @@ program.
   option('-t, --tty [tty]', 'Specify the tty used for the serial port. Default \'(/dev/ttyUSB0)\'', '/dev/ttyUSB0').
   parse(process.argv)
 
-console.log("Fixing to connect to telep");
 irobot.connectToTelep(program.name,
                       parseInt(program.port),
                       program.host,
                       program.server);
 
-console.log("Fixing to connect to iRobot");
 irobot.connectToIRobot(program.tty);
-
-console.log("Waiting for action");
 

@@ -1,6 +1,6 @@
 {
   "name": "irobot-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An iRobot Create client that can connect to the telep control system.",
   "main": "./lib/irobt-client.js",
   "engines": {

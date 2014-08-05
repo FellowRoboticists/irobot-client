@@ -6,7 +6,7 @@ var irobot = require('../lib/irobot-client');
 
 // Set up the command line arguments
 program.
-  version('0.1.0').
+  version('0.1.1').
   option('-n, --name [name]', 'Specify the name of the robot. Default \'minion\'', 'minion').
   option('-p, --port [port]', 'Specify the port of the telep server. Default \'5555\'', '5555').
   option('-h, --host [host]', 'Specify the host of the telep server. Default \'daneel\'', 'daneel').
